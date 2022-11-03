@@ -2,3 +2,180 @@
     margin: 0;
     padding: 0;
 }
+
+.navbar{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a, button{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    color: #1E0E62;
+}
+
+.menu button{
+    width: 60px;
+    height: 30px;
+    border-radius: calc(20px);
+    border: 1px solid rgba(129, 129, 129, 0.568);
+}
+
+.about h1{
+    font-size: 35px;
+    margin-bottom: 17%;
+    padding-top: 23%;
+}
+
+.about p{
+    margin-bottom: 20%;
+    font-size: 20px;
+}
+
+.about{
+    margin-left: 6%;
+    height: 100%;
+    margin-right: 8%;
+}
+
+.perfil{
+    width: 100%;
+    height: 100%;
+    border-radius: calc(5%);
+}
+
+.caja_perfil{
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+.about_info{
+    background-color: #F1F1F1;
+    border-bottom: 1px solid black;
+}
+
+.skills_info{
+    background-color: #F1F1F1;
+}
+.skills{
+    margin-left: 6%;
+    height: 100%;
+    margin-right: 8%;
+}
+
+.skills h2{
+    font-size: 30px;
+    padding-top: 8%;
+    margin-bottom: 5%;
+}
+
+.skills p{
+    margin-bottom: 10%;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.habilidades h3{
+    margin-bottom: 5%;
+}
+
+.habilidades:last-child{
+    padding-bottom: 10%;
+}
+
+.habilidades{
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+
+.habilidades span{
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.experiencia{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.experiencia h3{
+    font-size: 29px;
+    margin-bottom: 4%;
+}
+
+.experiencia p{
+    margin-bottom: 5%;
+}
+
+.experiencia button{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: #25DAC5;
+    margin-bottom: 5%;
+}
+
+.experiencia a{
+    text-decoration: none;
+    color: white;
+}
+
+.trabajos:last-child{
+    margin-bottom: 7%;
+}
+
+.trabajos {
+    width: 97%;
+    text-align: start;
+    margin-bottom: 10%;
+}
+
+
+.portadas_trabajos{
+    width: 100%;
+}
+
+.footer{
+    height: 220px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 20px;
+    padding-top: 15%;
+    margin-bottom: 2%;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.info a{
+    color: #1E0E62;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+.icons a{
+    margin-top: 4%;
+}
+
+@media only screen and (min-width: 1080px) {
+    
+}
